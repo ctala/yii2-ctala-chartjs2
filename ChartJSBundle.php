@@ -19,10 +19,11 @@ class ChartJSBundle extends AssetBundle {
 
     public $sourcePath = __DIR__ . "/dist/";
     public $css = [
+        "/css/"
     ];
     public $js = [
-        'Chart.min.js',
-        'utils.js',
+        '/dist/Chart.min.js',
+        '/js/utils.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',

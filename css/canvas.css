@@ -1,0 +1,10 @@
+/* 
+    Created on : May 17, 2017, 5:35:21 PM
+    Author     : Cristian Tala <yomismo@cristiantala.cl>
+*/
+
+canvas{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
