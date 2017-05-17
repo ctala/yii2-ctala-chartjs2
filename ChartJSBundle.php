@@ -15,7 +15,8 @@ class ChartJSBundle extends AssetBundle {
     public $css = [
     ];
     public $js = [
-        'Chart.bundle.min.js',
+        'Chart.min.js',
+        'utils.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
