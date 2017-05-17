@@ -1,0 +1,21 @@
+{
+    "name": "ctala/yii2-ctala-chartjs2",
+    "description": "ChartJS2 extention for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Tala",
+            "email": "yomismo@crstiantala.cl"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ctala\\ChartJS2\\": ""
+        }
+    }
+}
