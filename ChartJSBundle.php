@@ -11,11 +11,11 @@ use yii\web\AssetBundle;
  */
 class ChartJSBundle extends AssetBundle {
 
-    public $sourcePath = __DIR__."/vendor/nnnick/chartjs/src/";
+    public $sourcePath = __DIR__."/dist/";
     public $css = [
     ];
     public $js = [
-        'chart.js',
+        'Chart.bundle.min.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
