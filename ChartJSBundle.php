@@ -3,6 +3,7 @@
 namespace ctala\ChartJS2;
 
 use yii\web\AssetBundle;
+use yii\web\View;
 
 /**
  * Description of ChartJSBundle
@@ -11,7 +12,12 @@ use yii\web\AssetBundle;
  */
 class ChartJSBundle extends AssetBundle {
 
-    public $sourcePath = __DIR__."/dist/";
+    public function init() {
+        $this->jsOptions['position'] = View::POS_BEGIN;
+        parent::init();
+    }
+
+    public $sourcePath = __DIR__ . "/dist/";
     public $css = [
     ];
     public $js = [
