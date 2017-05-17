@@ -17,7 +17,7 @@ class ChartJSBundle extends AssetBundle {
         parent::init();
     }
 
-    public $sourcePath = __DIR__ . "/dist/";
+    public $sourcePath = __DIR__;
     public $css = [
         "/css/"
     ];
